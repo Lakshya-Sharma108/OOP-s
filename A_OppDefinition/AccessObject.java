@@ -5,7 +5,7 @@ public class AccessObject {
 
         System.out.println("Inside the AccessObject class");
 
-//        Creating a object of Student class
+//        Creating a object of Student class using default constructor
 //        Syntax: ClassName objectName = new Constructor();
         Student s1 = new Student();
 
@@ -25,6 +25,19 @@ public class AccessObject {
         s1.dance();
         s1.sleep();
 
+
+
+//        Creating object using parameterized constructor
+        Student s2 = new Student(2, 21, "lucky");
+        System.out.println(s2.id);
+        System.out.println(s2.age);
+        System.out.println(s2.name);
+
+//        Creating another object
+        Student s3 = new Student(3, 24, "yogi");
+        System.out.println(s3.id);
+        System.out.println(s3.age);
+        System.out.println(s3.name);
 
     }
 }

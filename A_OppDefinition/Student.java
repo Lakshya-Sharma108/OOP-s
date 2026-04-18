@@ -15,6 +15,13 @@ public class Student {
     }
 
 
+//    Parameterized constructor -> can set values dynamically
+    public Student(int id, int age, String name) {
+        this.id = id;
+        this.age = age;
+        this.name = name;
+    }
+
     //    2. Methods / Behavior
     public void study(){
         System.out.println(name+" is studying...");
