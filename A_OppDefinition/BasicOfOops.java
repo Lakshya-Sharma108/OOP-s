@@ -4,14 +4,12 @@ public class BasicOfOops {
     public static void main(String[] args) {
         /*
             Object-Oriented Programming (OOP) Concept :
-            OOP is a programming paradigm that is based on the concept of objects. It provides a way to structure
-            programs so that properties (data) and behaviors (functions) are bundled together.
+            OOP is a programming paradigm that is based on the concept of objects. It provides a way to structure programs so that properties (data) and behaviors (functions) are bundled together.
             (set of rules jinko follow karke ham software design karte hai)
 
 
             What is OOP in Java?
-            OOP is a programming model in which programs are designed using objects. It helps in organizing complex
-            programs by grouping data (variables) and behaviors (methods) into single units called objects.
+            OOP is a programming model in which programs are designed using objects. It helps in organizing complex programs by grouping data (variables) and behaviors (methods) into single units called objects.
 
 
             What is Object and Classes :
