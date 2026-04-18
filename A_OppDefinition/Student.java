@@ -17,15 +17,15 @@ public class Student {
 
     //    2. Methods / Behavior
     public void study(){
-        System.out.println("Student is studying...");
+        System.out.println(name+" is studying...");
     }
 
     public void dance() {
-        System.out.println("Student is dancing...");
+        System.out.println(name+" is dancing...");
     }
 
     public void sleep() {
-        System.out.println("Student is sleeping...");
+        System.out.println(name+" is sleeping...");
     }
 
     public static void main(String[] args) {
