@@ -4,8 +4,7 @@ public class D_HierarchicalInheritance {
     public static void main(String[] args) {
         /*
             What is Hierarchical Inheritance ?
-            In this a parent class can have multiple child classes and these multiple child classes can
-            also have there multiple child class.
+            In this a parent class can have multiple child classes and these multiple child classes can also have there multiple child class.
 
             Explain through a diagram :
                                                  Animal (Super Class)

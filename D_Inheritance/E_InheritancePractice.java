@@ -19,8 +19,7 @@ public class E_InheritancePractice {
 
 
            2. Scenario :
-           We know that in Multiple Inheritance a child class can have multiple parent class and Java not
-           support Multiple Inheritance.
+           We know that in Multiple Inheritance a child class can have multiple parent class and Java not support Multiple Inheritance.
            Now let's assume :
            class A{
               --code--
@@ -34,14 +33,12 @@ public class E_InheritancePractice {
               --code--
            }
 
-           In this case child class "C" has two parents and java not support Multiple Inheritance,
-           then why Java support this.
+           In this case child class "C" has two parents, and we know that java not support Multiple Inheritance, then why Java support this.
 
            Answer :
            In Multiple Inheritance a child class can have multiple parent class and Java not
            support Multiple Inheritance.
-           but in this case child class "C" only have one parent class that is "B" and "A" is not parent class
-           of "C", its grandParent class of "C", that's why java support this.
+           but in this case child class "C" only have one parent class that is "B" and "A" is not parent class of "C", its grandParent class of "C", that's why java support this.
 
 
 
@@ -68,13 +65,12 @@ public class E_InheritancePractice {
            }
 
            Is case me kya print hoga "hii" ya "hello", because we call a method m1() and both class
-           P1 and P2 have same methods, then which method is run.
+           P1 and P2 have same methods, then which method will execute.
            In this case java gives an error, that's why Java not support Multiple Inheritance
            Ambiguity is like Confusion, like which method should JVM call
 
-
-
-
         */
+
+
     }
 }
