@@ -44,5 +44,14 @@ public class JavaAccessModifiers {
         // person1.bath();  //Not-Accessible
         // 4. Public
         person1.walk();  //Accessible
+
+
+
+        // One thing to notice here is, we are not able to access private data members
+        // but, what if we need to access the private data, then how to do that?
+        // Ans -> for that we are going to use "get()" method for get the value and "set()" method to set the value, and these methods should define same place, in this case Example class
+
+        // Accessing private data using get method
+        System.out.println(person1.getAge());
     }
 }

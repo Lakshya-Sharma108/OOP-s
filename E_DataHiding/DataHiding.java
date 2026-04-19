@@ -27,7 +27,7 @@ public class DataHiding {
 
             As we are hiding data from outer classes or the world, encapsulation is also known as data hiding
 
-            The goal is to implement classes in a way that prevent unauthorized access to or modification of the original contents of a class by its instances (or object). The underlying algorithms of one class need not to we known to another class. The two classes can still communicate, though.
+            The goal is to implement classes in a way that prevent unauthorized access to or modification of the original contents of a class by its instances (or object). The underlying algorithms of one class need not be known to another class. The two classes can still communicate, though.
 
         */
 

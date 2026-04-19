@@ -18,6 +18,10 @@ public class Example {
     public String address = "Rajasthan";
 
 
+    // Get method for private data member -> age
+    public int getAge() {
+        return age;
+    }
 
 
     // Methods with access modifiers ->
