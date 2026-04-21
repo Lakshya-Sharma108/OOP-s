@@ -88,7 +88,7 @@ public class C_RuntimePolymorphism {
 
         /// Good example of Runtime Polymorphism (Method Overriding)
         /// which method is called -- Tricky -- let's understand this
-        Parent p2 = new Child();
+        Parent p2 = new Child();   /// This is called Upcasting or dynamic method dispatch
         p2.displayMessage();
 /*
         Parent p2 = new Child();
