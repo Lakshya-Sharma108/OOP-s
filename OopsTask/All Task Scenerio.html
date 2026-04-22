@@ -1,0 +1,200 @@
+        Java Assignment: Object-Oriented Programming (OOP) & Classes
+        Objective:
+        To apply OOP principles (Encapsulation, Abstraction, Inheritance, Polymorphism)
+        and master classes, objects, constructors, static members, and singleton patterns
+        through real-world problems.
+        Instructions:
+        •	Solve all tasks using OOP principles.
+        •	Write clean, well-documented code with proper comments.
+        •	Ensure edge cases are handled.
+        •	Submit .java files with output screenshots.
+
+
+
+        Task 1: Library Management System (Classes & Objects, Encapsulation)
+        📌 Problem Statement:
+        A library system manages books with the following attributes:
+        •	bookID, title, author, availabilityStatus (true/false).
+        Implement a Book class with:
+        1.	Encapsulation – Use private variables with getters and setters.
+        2.	A method to borrow a book, which updates availabilityStatus.
+        3.	A method to return a book.
+        4.	A display method to print book details.
+
+        🔹 Example Output:
+        Book: Java Programming by John Doe
+        Available: Yes
+        Borrowing book...
+        Available: No
+        Returning book...
+        Available: Yes
+
+
+
+
+
+        Task 2: Banking System (Encapsulation, this Keyword, Call by Value)
+        📌 Problem Statement:
+        Design a BankAccount class with:
+        •	accountNumber, holderName, balance.
+        •	A constructor to initialize details.
+        •	Methods: deposit(amount), withdraw(amount).
+        ✅ Use Encapsulation and this keyword where required.
+        ✅ Demonstrate Call by Value with a method that updates a local variable
+            but does not affect the original balance.
+
+        🔹 Example Output:
+        Initial Balance: 5000
+        Depositing 2000...
+        New Balance: 7000
+        Trying to withdraw 8000...
+        Insufficient balance!
+
+
+
+
+
+        Task 3: E-commerce Order Processing (Method Overloading)
+        📌 Problem Statement:
+        Design an Order class for an E-commerce system with:
+        •	Overloaded methods for placeOrder(), allowing:
+        o	Placing an order with productName and quantity.
+        o	Placing an order with productName, quantity, and discount code.
+
+        🔹 Example Output:
+        Order placed: Laptop (2 units)
+        Order placed: Phone (1 unit) with 10% discount
+
+
+
+
+
+        Task 4: Student Management System (Constructors, Overloading, this)
+        📌 Problem Statement:
+
+        Create a Student class with:
+        •	Instance variables: studentID, name, course, feesPaid.
+        •	Constructors:
+        o	A default constructor that assigns default values.
+        o	A parameterized constructor for user-defined values.
+        o	A copy constructor that duplicates a student object.
+
+        🔹 Example Output:
+        Student 1: ID=101, Name=John, Course=Java
+        Student 2 (Copied): ID=101, Name=John, Course=Java
+
+
+
+
+
+        Task 5: Game Character Generator (Random Class, Constructor Overloading)
+        📌 Problem Statement:
+        Design a GameCharacter class where:
+        •	A random character is created with random health (50-100) and strength (10-50).
+        •	The constructor randomly assigns these values.
+        •	Overload the constructor to allow manual character creation.
+
+        🔹 Example Output:
+        Random Character: Health = 72, Strength = 35
+        Custom Character: Health = 90, Strength = 40
+
+
+
+
+
+        Task 6: Car Rental System (Static Members, Instance Variables, new Keyword)
+        📌 Problem Statement:
+        A CarRentalSystem manages cars. Implement a Car class with:
+        •	Instance variables: carID, brand, rented (boolean).
+        •	Static variable: totalCarsRented.
+        •	Methods: rentCar(), returnCar(), displayCarDetails().
+        ✅ Ensure rented cars update totalCarsRented correctly.
+
+        🔹 Example Output:
+        Car ID: 101, Brand: Toyota, Rented: No
+        Renting Car...
+        Total Cars Rented: 1
+        Returning Car...
+        Total Cars Rented: 0
+
+
+
+
+
+        Task 7: Electricity Billing System (Static Block, Static Method, Static Import)
+        📌 Problem Statement:
+        Create an ElectricityBilling system where:
+        1.	Static block initializes unit prices.
+        2.	Static method calculateBill(units) computes the bill.
+        3.	Uses static import for Math functions.
+
+        🔹 Example Input:
+        Units Consumed: 120
+
+        🔹 Expected Output:
+        Total Bill: ₹600
+
+
+
+
+
+        Task 8: Singleton Logger Class
+        📌 Problem Statement:
+        Create a Logger class that follows the Singleton Pattern.
+        •	Ensure only one instance of Logger exists.
+        •	The logger should store messages and display the log history.
+
+        🔹 Example Output:
+        [LOG]: System Started
+        [LOG]: User Logged In
+        [LOG]: Order Placed
+
+
+
+
+
+        Task 9: Company Employee Database (Instance Variable Hiding & Initialization Block)
+        📌 Problem Statement:
+        Develop an Employee class where:
+        •	Instance Variable Hiding ensures salary is not directly accessible.
+        •	Initialization Block automatically assigns unique Employee IDs.
+
+        🔹 Example Output:
+        Employee ID: E101, Name: Alice, Salary: Hidden
+
+
+
+
+
+        Task 10: Hospital Management System (Static Methods, Singleton Pattern)
+        📌 Problem Statement:
+        A hospital maintains one central database for all patients.
+        •	Implement a Singleton class HospitalDatabase.
+        •	Use static methods for addPatient(), getPatientDetails().
+
+        🔹 Example Output:
+        Patient Added: John Doe
+        Fetching Patient Details: John Doe, Age 30, Diagnosis: Flu
+
+
+
+
+
+        Bonus Challenge: ATM System with Polymorphism (Method Overriding & Static Binding)
+        📌 Problem Statement:
+        An ATM System has different types of accounts:
+        1.	SavingsAccount (withdrawal limit ₹25,000)
+        2.	CurrentAccount (no withdrawal limit)
+        •	Override the withdraw(amount) method in both accounts.
+        •	Demonstrate Static Binding vs. Dynamic Binding.
+
+        🔹 Example Output:
+        Savings Account Withdrawal: ₹25,000 (Limit Reached!)
+        Current Account Withdrawal: ₹50,000 (Successful!)
+
+
+
+Submission Guidelines:
+✅ Write clean, well-commented code.
+✅ Handle edge cases like insufficient balance, duplicate entries, etc.
+✅ Attach .java files and execution screenshots.
